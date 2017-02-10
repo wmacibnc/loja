@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
 
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Thumbnail Gallery - Start Bootstrap Template</title>
+    <title>Loja</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,119 +28,126 @@
 
     <body>
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Start Bootstrap</a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Services</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
-
-        <!-- Page Content -->
         <div class="container">
 
             <div class="row">
-
                 <div class="col-md-12">
-                    <h1 class="page-header">Thumbnail Gallery</h1>
-                    
-
-
-                </div>
-
-                <div class="col-md-12">
-                    <div class="col-md-3 thumb">
-                    <div class="row">
-                        <img class="img-responsive" src="http://placehold.it/400x250" alt="">
+                    <div class="col-md-4">
+                     <img class="img-responsive" src="logo.png" alt="Nanda Eva Artes">
+                 </div>
+                 <div class="col-md-8 text-right">
+                     <h3>1111-1111</h3>
+                     <p><a href="">nandaevaartes.com.br</a></p>
+                     <p>
+                        <form class="form-search">
+                            <input type="text" class="input-medium search-query">
+                            <button type="submit" class="btn">Pesquisar</button>
+                        </form></p>
                     </div>
-
-
-                        <div class="row">
-                        <img class="img-responsive" src="http://placehold.it/400x250" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6 thumb">
-                    <img class="img-responsive" src="http://placehold.it/800x500" alt="">  
-                  </div>
-
-                  <div class="col-md-3 thumb">
-                    <img class="img-responsive" src="http://placehold.it/400x250" alt="">
-                    <img class="img-responsive" src="http://placehold.it/400x250" alt="">
-                </div>
-            </div>
-
-            <div class="col-md-12">
-                <div class="col-md-3 thumb">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </div>
-                <div class="col-md-3 thumb">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </div>
-                <div class="col-md-3 thumb">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </div>
-                <div class="col-md-3 thumb">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </div>
-                <div class="col-md-3 thumb">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </div>
-                <div class="col-md-3 thumb">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </div>
-                <div class="col-md-3 thumb">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </div>
-                <div class="col-md-3 thumb">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
                 </div>
             </div>
         </div>
 
-        <hr>
+        <div class="row"> <br /></div>
 
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+        <div class="row">
+            <div class="container">
+                <ol class="breadcrumb">
+                  <li><a href="#">Ínicio</a></li>
+                  <li class="active">Abajus</li>
+              </ol>   
+          </div>
+
+      </div>
+
+
+
+
+      <!-- Page Content -->
+      <div class="container">
+
+
+
+        <div class="row"> <br />
+        </div>
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="col-md-3 thumb">
+                    <div class="row">
+                        <div class="col-md-12 thumb">
+                            <img class="img-responsive" src="http://placehold.it/400x250/FCBA4C" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-12 thumb">
+                            <img class="img-responsive" src="http://placehold.it/400x250/FCBA4C" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 thumb">
+                    <div class="row">
+                        <div class="col-md-12 thumb">
+                            <img class="img-responsive" src="http://placehold.it/800x520/EA5690" alt="">  </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 thumb">
+                        <div class="row">
+                            <div class="col-md-12 thumb">
+                                <img class="img-responsive" src="http://placehold.it/400x250/45BFE8" alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-12 thumb">
+                                <img class="img-responsive" src="http://placehold.it/400x250/45BFE8" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="col-md-3 thumb">
+                        <img class="img-responsive" src="http://placehold.it/400x300/39B04C" alt="">
+                    </div>
+                    <div class="col-md-3 thumb">
+                        <img class="img-responsive" src="http://placehold.it/400x300/9B66AC" alt="">
+                    </div>
+                    <div class="col-md-3 thumb">
+                        <img class="img-responsive" src="http://placehold.it/400x300/FCBA4C" alt="">
+                    </div>
+                    <div class="col-md-3 thumb">
+                        <img class="img-responsive" src="http://placehold.it/400x300/EA5690" alt="">
+                    </div>
                 </div>
             </div>
-        </footer>
 
-    </div>
-    <!-- /.container -->
+            <hr>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; Your Website 2014</p>
+                    </div>
+                </div>
+            </footer>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+        </div>
+        <!-- /.container -->
 
-</body>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
 
-</html>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+
+    </html>

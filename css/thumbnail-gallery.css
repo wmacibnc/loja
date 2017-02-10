@@ -5,7 +5,17 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    padding-top: 20px;
+    background-color: #FFFFFF;
+}
+
+.navbar-inverse{
+	background-color: #EA5690;
+	border-color: #EA5690;
+}
+
+.navbar-inverse .navbar-brand{
+	color: BLACK;
 }
 
 .thumb {
