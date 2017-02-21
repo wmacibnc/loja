@@ -48,9 +48,12 @@
                   <label class="col-md-4 control-label" for="ordem">Ordem</label>
                   <div class="col-md-4">
                     <select id="ordem" name="ordem" class="form-control">
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                  </select>
+                     <?php
+                        for($i = 1; $i < 10; $i++) {   
+                          echo "<option value='".$i."'>".$i."</option>";
+                        }
+                      ?>
+                    </select>
               </div>
           </div>
 

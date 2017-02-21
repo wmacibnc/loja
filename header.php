@@ -44,10 +44,10 @@ include("config.php");
             <div class="row">
                 <div class="col-md-12">
                     <div class="col-md-4">
-                     <img class="img-responsive" src="logo.png" alt="Nanda Eva Artes">
+                     <a href="index.php"><img class="img-responsive" src="logo.png" alt="Nanda Eva Artes" /></a>
                  </div>
                  <div class="col-md-8 text-right">
-                     <h3>1111-1111</h3>
+                     <h3>+ 55 (61) 1111-1111</h3>
                      <p><a href="">nandaevaartes.com.br</a></p>
                      <p>
                         <form class="form-search">

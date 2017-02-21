@@ -3,7 +3,12 @@
 $imagem = $_FILES["imagem"];
 $descricao = $_POST["descricao"];
 $ordem = $_POST["ordem"];
-$ativo = $_POST["ativo"];
+if(!empty($_POST["ativo"])){
+	$ativo = 1;
+}else{
+	$ativo = 2;
+}
+
 
 if($imagem != NULL) { 
 	$nomeFinal = time().'.jpg';
@@ -15,7 +20,7 @@ if($imagem != NULL) {
 		mysqli_query($con,$insert) or die(mysqli_error($con));;
 		unlink($nomeFinal);
 
-		echo " <META http-equiv='refresh' content='1;URL=index-adm.php'>";
+		echo " <META http-equiv='refresh' content='1;URL=categoria.php'>";
 		
 	}
 } 
