@@ -1,7 +1,12 @@
 <?php include 'header.php'; ?>
+<div class="container">
 
-<a href="cadastro-categoria.php"> Nova Categoria</a>
-<br />
-<a href="cadastro-produto.php"> Novo Produto</a>
+	<div class="row">
+		<div class="col-md-12">
+		<a href="categoria.php"> Categorias </a>
+			<br />
+			<a href="produto.php"> Produtos </a>
+		</div>
+	</div>
 
-<?php include 'footer.php'; ?>
+	<?php include 'footer.php'; ?>
